@@ -1,0 +1,83 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+	background: #ffffff;
+}
+
+.title{
+	font-family: 'Lobster Two', cursive;
+	letter-spacing: 2px;
+	margin-right: auto;
+	font-size: 1.4em;
+}
+
+/*-----Header-----*/
+
+header{
+	height: 1000px;
+	padding-top: 3em;
+	background-image:url("https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b237330e1a78d52ec28208cbe21be778&auto=format&fit=crop&w=2700&q=80");
+	background-size: cover;
+	text-align: center;
+}
+
+.dp{
+	margin-top: 6em;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	transition: transform .5s;	
+  border: white solid 5px;
+}
+
+.dp:hover{
+	transform: scale(1.15) rotate(4deg);
+}
+
+.name{
+	width: 280px;
+	background-color:#D8D4D2;
+}
+
+.place{
+	width: 140px;
+	background-color:#A92159;
+	color: #fff;
+	margin-top: 1em;
+}
+
+.tag{
+	border-radius: 4px;
+	margin: .25em auto;
+	padding: 10px 20px;
+}
+
+/*@media(min-width:768px)*/
+
+@media(min-width: 768px){
+
+
+	header{
+		height: 1060px;
+	}
+
+	.dp{
+		width: 230px;
+		height: 230px;
+		margin-bottom: 1em;
+	}
+
+	.name{
+		width: 320px;
+		font-size: 2.2em;
+	}
+
+	.place{
+		font-size: 1.25em;
+	}
+}
+
+
+
